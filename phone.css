@@ -1,0 +1,102 @@
+html,body{
+    width: 100%;
+    
+    overflow-x:hidden ;
+}
+.navbar{
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.navbar li a{
+    font-size: .5rem;
+}
+.logo img{
+    height: 30px;
+    margin-bottom: 0;
+}
+/*----------------------slider----------------------------------*/
+.slider{
+    
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    flex-direction: column;
+    
+    
+}
+.slider h1{
+    font-size: 6rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+/*----------------------------servicesec-----------------------------*/
+.servicesection h1{
+    font-size: 1.8rem;
+}
+.servicesection2 h1{
+    font-size: 1.8rem;
+
+}
+
+.bottleimg img{
+    height: 300px;
+}
+.service img{
+    height: 250px;
+}
+
+.shop a{
+    padding:20px;
+}
+
+.contactussec form {
+    width: 80%;
+
+}
+
+/*----------------------------partners section-------------------------*/
+.partner{
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.partner h1{
+    font-size: 40px;
+}
+.partlogos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ufc img{
+height: 70px;
+}
+.and img{
+    height: 70px;
+
+}
+.arsenal img{
+    height: 70px;
+
+}
+/*--------------------------------------footer section-----------------------------------*/
+.footer {
+    height: 100%;
+    flex-direction: column;
+}
+.a1{
+    width: 100%;
+    height: 400px;
+}
+.b{
+    width: 100%;
+    height: 200px;
+}
+.c{
+    width: 100%;
+}
